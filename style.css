@@ -129,8 +129,74 @@ img {
  ************************************************/
 
 
-
-
-@media screen and (min-width: 768px) {
-    
+@media screen and (max-width: 1160px) {
+    .container {
+        width: 100%;
+    }
 }
+
+/* tablet  */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+
+
+
+/* telefono */
+
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lessons .col img{
+        height: 150px;
+    }
+
+    .lessons .col {
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 20px;
+    }
+
+    /* seconda parte */
+
+    .steps .col img {
+        height: 150px;
+    }
+
+    .steps .col {
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 20px;
+    }
+
+    /* terza  parte */
+
+    .why-us .col img{
+        height: 150px;
+    }
+
+    .why-us .col {
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 20px;
+    }
+
+} 
